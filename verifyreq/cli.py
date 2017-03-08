@@ -26,13 +26,7 @@ def main():
 
 def verify_requirements(requirement_files):
     """Check a sequence of requirement files for consistency."""
-    allreqs = []
     for reqfile in requirement_files:
         print('Checking ' + reqfile.name)
         reqs = reqfile.readlines()
-        allreqs.extend(reqs)
         pkg_resources.require(reqs)
-
-    if len(requirement_files) > 1:
-        print('Checking all files together')
-        pkg_resources.require(allreqs)

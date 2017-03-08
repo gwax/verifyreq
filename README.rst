@@ -23,6 +23,11 @@ will be zero. If there are any problems, a stack trace will be emitted with
 Changelog
 =========
 
+0.1.1
+-----
+
+- Only check through files once.
+
 0.1.0
 -----
 
