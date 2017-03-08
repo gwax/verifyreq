@@ -1,3 +1,2 @@
-"""Establish the verifyreq package."""
-
-from verifyreq.version import __version__  # noqa
+"""Establish verifyreq module."""
+from verifyreq.version import __version__

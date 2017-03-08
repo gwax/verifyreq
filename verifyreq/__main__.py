@@ -1,6 +1,6 @@
-"""Entrypoint."""
+"""Module entrypoint."""
 
-from verifyreq import cli
+import verifyreq.cli
 
 
-cli.main()
+verifyreq.cli.main()
